@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+      <section>
+        <div class="container format mt-5 ">
+            <h1 class="text-center mb-3">Smart Login System</h1>
+            <!-- <form> -->
+            <input type="text" name="name" id="userName " required  class="d-block input1 w-100 mt-2 p-1 " placeholder="Enter your name" />
+            <p class="d-none"><i class="fa-solid fa-circle-exclamation"></i>please enter a valid name</p>
+
+            <input type="email"  id="inputEmail" name="email" required  class="d-block input2  w-100 mt-3 p-1" placeholder="Enter your email" />
+           
+            <input type="password" name="password" id="demo" required  class="d-block w-100   mt-3 p-1" placeholder="Enter your password"/>
+            <p class="d-none vaildpassword "><i class="fa-solid fa-circle-exclamation"></i>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.
+
+            </p>
+           <p  class="d-none  warn text-center mt-3  ">All inputs is required </p>
+           <p  class="d-none success text-center mt-3  ">Success</p>
+            <button type="submit "  class="w-100 mt-3 p-1 add " >Sign Up</button>
+            </form>
+            <p class="text-center mt-3">Don’t have an account?
+                <a href="index.html" target="_self">Log in</a>
+            </p>
+        </div>
+      </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
